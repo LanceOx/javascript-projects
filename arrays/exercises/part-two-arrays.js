@@ -18,4 +18,4 @@ console.log(`Anytime you perform a check for take off, the cargohold should read
 
 /*/Status check, rookie. Which array methods ADD items, and where are the new entries placed? Which methods REMOVE items, 
 and where do the entries come from? Which methods require entries inside the ()?//*/
-//-array methods that add an item are "splice", "unshift" and "push". methods that remove items, are: "pop" and "shift".//
+//-array methods that add an item are "splice", "unshift" and "push". methods that remove items, are: "pop", "splice" and "shift".//
