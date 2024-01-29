@@ -67,4 +67,5 @@
     
     console.log("Even values: " + even.trim());
     console.log("Odd values: " + odd.trim());
+
     

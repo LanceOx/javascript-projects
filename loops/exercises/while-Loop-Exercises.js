@@ -57,3 +57,19 @@ console.log("Orbit achieved!!");
   console.log("Failed to reach orbit..");
 
 }
+function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
+  let pantry = [protein, grains, veggies, beverages, desserts];
+  let meals = []; 
+  // meals: array[array[string, ...]]
+  // [['chicken', ...], ['pork', ...], ...]
+  /// Part A #2: Write a ``for`` loop inside this function
+  /// Code your solution for part A #2 below this comment (and above the return statement) ... ///
+  for(let i = 0; i<numMeals.length; i++){ 
+    meals[i] = []; // meals[i] == meal [..., i'th iteration ->[ ], ...]
+    for(let j = 0; j<pantry.length; j++){ 
+      meals[i].push(pantry[j][i]);
+    }
+  }
+
+  return meals;
+}
