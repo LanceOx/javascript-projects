@@ -9,7 +9,19 @@ function findMinValue(arr){
 }
 
 //Create a function with an array of numbers as its parameter. This function will return a new array with the numbers sorted from least to greatest value.
+// function sortArr(arr) {
+//   let arry1 = []
+//   let arry2 = []
+//   while (arr.length > 0) {
+//       arry2 = findMinValue(arr)
+//       arry1.push(arry2)
+//       arr.splice(arr.indexOf(arry2), 1)
 
+//   }
+//   return arry1
+
+// } 
+// console.log(sortArr(arr))
 /*Within the function:
 1) Define a new, empty array to hold the final sorted numbers.
 2) Use the findMinValue function to find the minimum value in the old array.
