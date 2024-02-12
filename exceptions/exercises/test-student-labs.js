@@ -3,7 +3,13 @@ function gradeLabs(labs) {
     let lab = labs[i];
     let result = lab.runLab(3);
     console.log(`${lab.student} code worked: ${result === 27}`);
-  }
+  } try {
+    if (runLab === false)
+    throw ("run lab has thrown an error")
+ 
+} catch (error){
+  console.error(error)
+}
 }
 
 let studentLabs = [
@@ -21,4 +27,4 @@ let studentLabs = [
   }
 ];
 
-gradeLabs(studentLabs);
+//gradeLabs(studentLabs);
